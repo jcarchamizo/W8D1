@@ -1,4 +1,4 @@
-function mostrarAnimal() {
+function showAnimal() {
     const input = document.getElementById("animal").value.toLowerCase().trim();
     const image = document.getElementById("imageAnimal");
     const caption = document.getElementById("photoCaption");
