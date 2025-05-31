@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Pet Store</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Pet Store 🐾</h1>
+
+  <div class="entrance">
+    <label for="animal">What animal do you want to see?</label>
+    <input type="text" id="animal" placeholder="Ej: dog, cat, canary">
+    <button onclick="mostrarAnimal()">Send</button>
+  </div>
+
+  <div id="door" class="door">
+    <img id="imageAnimal" src="" alt="" style="display:none">
+  </div>
+
+  <div id="photoCaption" class="photo-caption"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
