@@ -1,13 +1,13 @@
 function mostrarAnimal() {
     const input = document.getElementById("animal").value.toLowerCase().trim();
-    const image = document.getElementById("imagenAnimal");
-    const caption = document.getElementById("pieFoto");
+    const image = document.getElementById("imageAnimal");
+    const caption = document.getElementById("photoCaption");
   
     // Dictionary of animals
     const animals = {
-      dog: "img/greyhound.jpg",
-      cat: "img/cat.jpg",
-      canary: "img/greyhound.jpg"
+      dog: "greyhound.jpg",
+      cat: "cat.jpg",
+      canary: "greyhound.jpg"
     };
   
     if (animals[input]) {
