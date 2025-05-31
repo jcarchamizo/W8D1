@@ -7,7 +7,7 @@ function showAnimal() {
     const animals = {
       dog: "img/greyhound.jpg",
       cat: "img/cat.jpg",
-      canary: "img/greyhound.jpg"
+      canary: "img/canary.jpg"
     };
   
     if (animals[input]) {
