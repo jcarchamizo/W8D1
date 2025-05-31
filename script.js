@@ -5,9 +5,9 @@ function showAnimal() {
   
     // Dictionary of animals
     const animals = {
-      dog: "greyhound.jpg",
-      cat: "cat.jpg",
-      canary: "greyhound.jpg"
+      dog: "img/greyhound.jpg",
+      cat: "img/cat.jpg",
+      canary: "img/greyhound.jpg"
     };
   
     if (animals[input]) {
